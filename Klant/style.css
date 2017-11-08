@@ -1,0 +1,44 @@
+*{
+padding : 0;
+margin : 0;
+border : 0;
+}
+body{
+background-color: black;
+background-attachment : fixed;
+background-size : 100% auto;
+}
+.container{
+display : block;
+width : 900px;
+overflow : auto;
+margin : 30px auto 0 auto;
+}
+.Header{
+background-color : red;
+float : left;
+clear : none;
+height : 200px;
+width : 900px;
+}
+.LeftMenu{
+background-color : blue;
+float : left;
+clear : none;
+height : 600px;
+width : 200px;
+}
+.Content{
+background-color : green;
+float : left;
+clear : none;
+height : 600px;
+width : 700px;
+}
+.Footer{
+background-color : yellow;
+float : left;
+clear : none;
+height : 100px;
+width : 900px;
+}
