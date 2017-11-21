@@ -6,6 +6,7 @@
 
 body {
     background-image: url(images/istanbulBackground.jpg);
+    /*background-color: #334431;*/
     background-attachment: fixed;
     background-size: 100% auto;
     font-family: 'Caveat Brush';
@@ -20,7 +21,7 @@ container {
 }
 
 header {
-    background-color: red;
+    background-color: #e6af4b;
     background-image: url("images/snackTimeLogo.png");
     background-repeat: no-repeat;
     background-size: 210px;
@@ -31,21 +32,40 @@ header {
 }
 
 .titel_header {
-    font-size:72px;
+    font-size:550%;
     color: rgba(237, 245, 0, 1);
     font-family: 'Caveat Brush';
+    position: absolute;
+    top: 13%;
+    right: 27%;
+}
+
+.fb_SharePage {
+    position:absolute; 
+    top: 34%; 
+    right: 17%; 
+    width: 2%; 
+    height: 4%;
+}
+
+.halal_logo {
+    position:absolute; 
+    top: 34%; 
+    right: 19%; 
+    width: 2%; 
+    height: 4%;
 }
 
 aside {
-    background-color: blue;
-    float: left;
+    background-color: #334431;
+    float: right;
     clear: none;
     height: 600px;
     width: 200px;
 }
 
 content {
-    background-color: green;
+    background-color: #e05038;
     float: left;
     clear: none;
     height: 600px;
@@ -53,7 +73,7 @@ content {
 }
 
 footer {
-    background-color: yellow;
+    background-color: #e6af4b;
     float: left;
     clear: none;
     height: 30px;
