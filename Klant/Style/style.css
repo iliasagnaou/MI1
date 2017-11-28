@@ -14,7 +14,7 @@ body {
 
 container {
     display: block;
-    width: 900px;
+    width: 56.250em;
     overflow: auto;
     margin: 30px auto 0 auto;
     opacity: 0.9;
@@ -27,8 +27,8 @@ header {
     background-size: 210px;
     float: left;
     clear: none;
-    height: 200px;
-    width: 900px;
+    height: 12.500em;
+    width: 56.250em;
 }
 
 .titel_header {
@@ -56,28 +56,53 @@ header {
     height: 4%;
 }
 
-aside {
+#home_page aside {
     background-color: #334431;
     float: right;
     clear: none;
-    height: 600px;
-    width: 200px;
+    height: 37.500em;
+    width: 12.500em;
+}
+
+.openingsuren {
+    background-color: #e6af4b;
+    font-size: 94%;
+    border: 1px solid black; 
+    position:absolute; 
+    top: 47%;
+}
+
+th {
+  text-align: left; 
 }
 
 content {
     background-color: #e05038;
     float: left;
     clear: none;
-    height: 600px;
-    width: 700px;
+    height: 37.500em;
+    width: 43.750em;
+}
+
+#contact_page .contact_info {
+    border: 2px solid black; 
+    text-align: center;
+}
+
+#contact_page content {
+    background-color: #e05038;
+    float: left;
+    clear: none;
+    height: 37.500em;
+    width: 56.250em;
 }
 
 footer {
     background-color: #e6af4b;
     float: left;
     clear: none;
-    height: 30px;
-    width: 900px;
+    height: 1.875em;
+    width: 56.250em;
 }
 
 
