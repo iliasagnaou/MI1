@@ -3,7 +3,7 @@
     margin: 0;
     border: 0;
 }
-
+/*********************HOME*************************/
 body {
     background-image: url(images/istanbulBackground.jpg);
     /*background-color: #334431;*/
@@ -32,7 +32,7 @@ header {
 }
 
 .titel_header {
-    font-size:550%;
+    font-size: 550%;
     color: rgba(237, 245, 0, 1);
     font-family: 'Caveat Brush';
     position: absolute;
@@ -41,18 +41,18 @@ header {
 }
 
 .fb_SharePage {
-    position:absolute; 
-    top: 34%; 
-    right: 17%; 
-    width: 2%; 
+    position: absolute;
+    top: 34%;
+    right: 17%;
+    width: 2%;
     height: 4%;
 }
 
 .halal_logo {
-    position:absolute; 
-    top: 34%; 
-    right: 19%; 
-    width: 2%; 
+    position: absolute;
+    top: 34%;
+    right: 19%;
+    width: 2%;
     height: 4%;
 }
 
@@ -64,16 +64,12 @@ header {
     width: 12.500em;
 }
 
-.openingsuren {
+.openingsuren th td {
     background-color: #e6af4b;
     font-size: 94%;
-    border: 1px solid black; 
-    position:absolute; 
+    position: absolute;
     top: 47%;
-}
-
-th {
-  text-align: left; 
+    text-align: center;
 }
 
 content {
@@ -83,9 +79,11 @@ content {
     height: 37.500em;
     width: 43.750em;
 }
+/*********************HOME*************************/
 
+/*********************CONTACT*************************/
 #contact_page .contact_info {
-    border: 2px solid black; 
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -96,6 +94,107 @@ content {
     height: 37.500em;
     width: 56.250em;
 }
+/*********************END_CONTACT*************************/
+
+/*********************MENU*************************/
+#menu_page content {
+    background-color: #334431;
+    float: left;
+    clear: none;
+    height: 37.500em;
+    width: 56.250em;
+}
+
+.menu_heading {
+    font-size: 20px;
+    font-style: italic;
+    color: #e6af4b;
+    position: absolute;
+    top: 47%;
+    right: 39%;
+}
+
+.menu_subheading {
+    font-size: 18px;
+    font-style: italic;
+    color: grey;
+    position: absolute;
+    top: 54%;
+    right: 41%;
+}
+
+tbody {
+    position:absolute;
+    top: 60%;
+    color: #e6af4b;
+    font-family: 'Caveat Brush';
+}
+.table_titles {
+    color: grey;
+}
+
+.table_durum {
+    text-align: left;
+    width: 234px; 
+    height: 269px; 
+    border: 1;
+}
+
+td {
+    vertical-align: top;
+}
+
+.table_frites {
+    position:absolute;
+    top: 85%;
+    text-align: left; 
+    width: 234px; 
+    height: 88px;
+    border: 1;
+}
+
+.table_assiettes {
+    position: absolute;
+    top: 87%;
+    text-align: left; 
+    width: 233px; 
+    height: 189px;
+    border: 1;
+}
+
+.table_viandes {
+    text-align: left; 
+    width: 233px; 
+    height: 32px; 
+    margin-left: auto; 
+    margin-right: auto;
+    border: 1;
+}
+
+.table_hamburgers {
+    position:absolute;
+    top:108%;
+    right: 41.6%;
+    text-align: left; 
+    width: 232px; 
+    height: 32px; 
+    margin-left: auto; 
+    margin-right: auto;
+    border: 1;
+}
+
+.table_mitraillettes {
+    position: absolute;
+    top:57%;
+    right: 20%;
+    text-align: left; 
+    width: 238px; 
+    height: 32px; 
+    margin-left: auto; 
+    margin-right: 0px;
+    border: 1;
+}
+/*********************END_MENU*************************/
 
 footer {
     background-color: #e6af4b;
