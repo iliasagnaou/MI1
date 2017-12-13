@@ -3,7 +3,9 @@
     margin: 0;
     border: 0;
 }
+
 /*********************HOME*************************/
+
 body {
     background-image: url(images/istanbulBackground.jpg);
     /*background-color: #334431;*/
@@ -15,7 +17,6 @@ body {
 container {
     display: block;
     width: 56.250em;
-    overflow: auto;
     margin: 30px auto 0 auto;
     opacity: 0.9;
 }
@@ -25,7 +26,6 @@ header {
     background-image: url("images/snackTimeLogo.png");
     background-repeat: no-repeat;
     background-size: 210px;
-    float: left;
     clear: none;
     height: 12.500em;
     width: 56.250em;
@@ -41,19 +41,16 @@ header {
 }
 
 .fb_SharePage {
-    position: absolute;
-    top: 34%;
-    right: 17%;
-    width: 2%;
-    height: 4%;
+    margin-bottom: -2px;
+    width: 25px;
+    height: 25px;
 }
 
 .halal_logo {
-    position: absolute;
-    top: 34%;
-    right: 19%;
-    width: 2%;
-    height: 4%;
+    margin-top: 175px;
+    margin-left: 850px;
+    width: 20px;
+    height: 20px;
 }
 
 #home_page aside {
@@ -79,24 +76,136 @@ content {
     height: 37.500em;
     width: 43.750em;
 }
-/*********************HOME*************************/
+
+/*********************END_HOME*************************/
 
 /*********************CONTACT*************************/
+
 #contact_page .contact_info {
-    border: 2px solid black;
     text-align: center;
+    background-color: #334431;
+    color: white;
 }
 
 #contact_page content {
     background-color: #e05038;
     float: left;
     clear: none;
-    height: 37.500em;
+    height: 32.750em;
     width: 56.250em;
+    margin-bottom: 35px;
 }
+
+.map {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
 /*********************END_CONTACT*************************/
 
+/*********************PICTURES*************************/
+
+#pictures_page content {
+    background-color: #e05038;
+    float: left;
+    clear: none;
+    height: 37.500em;
+    width: 56.250em;
+    overflow: auto;
+}
+
+.pictures {
+    margin-top: 50px;
+}
+
+.food_presentation {
+    height: 200px;
+    width: 200px;
+    background-color: #e6af4b;
+    border: 2px solid Black;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.food_photo {
+    height: 150px;
+    border-radius: 15px;
+}
+
+.food_text span {
+    color: #334431;
+    font-size: 0.8125em;
+    line-height: 1.8em;
+    margin-bottom: 10px;
+}
+
+/*********************END_PICTURES*************************/
+
+/*********************ORDER*************************/
+
+#order_page content {
+    background-color: #334431;
+    height: 37.500em;
+    width: 56.250em;
+    float: left;
+    /**overflow: auto;**/
+}
+
+.order_heading {
+    font-size: 20px;
+    font-style: italic;
+    color: #e6af4b;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+
+.order_subheading {
+    font-size: 18px;
+    font-style: italic;
+    color: grey;
+    margin-top: -30px;
+    margin-left: 330px;
+}
+
+form {
+    color: white;
+    margin-left: 100px;
+}
+
+.customer_information {
+    float: right;
+    margin-top: -178px;
+    margin-right: 250px;
+}
+
+.radio_buttons {
+    float: right;
+    margin-top: -192px;
+    margin-right: 250px;
+}
+
+.submit_button {
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    padding: 9px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.submit_button:hover {
+    background-color: #e6af4b;
+}
+
+/*********************END_ORDER*************************/
+
 /*********************MENU*************************/
+
 #menu_page content {
     background-color: #334431;
     float: left;
@@ -109,34 +218,33 @@ content {
     font-size: 20px;
     font-style: italic;
     color: #e6af4b;
-    position: absolute;
-    top: 47%;
-    right: 39%;
+    margin-top: 50px;
+    margin-left: 320px;
 }
 
 .menu_subheading {
     font-size: 18px;
     font-style: italic;
     color: grey;
-    position: absolute;
-    top: 54%;
-    right: 41%;
+    margin-top: -30px;
+    margin-left: 330px;
 }
 
 tbody {
-    position:absolute;
+    position: absolute;
     top: 60%;
     color: #e6af4b;
     font-family: 'Caveat Brush';
 }
+
 .table_titles {
     color: grey;
 }
 
 .table_durum {
     text-align: left;
-    width: 234px; 
-    height: 269px; 
+    width: 234px;
+    height: 269px;
     border: 1;
 }
 
@@ -145,10 +253,10 @@ td {
 }
 
 .table_frites {
-    position:absolute;
+    position: absolute;
     top: 85%;
-    text-align: left; 
-    width: 234px; 
+    text-align: left;
+    width: 234px;
     height: 88px;
     border: 1;
 }
@@ -156,45 +264,48 @@ td {
 .table_assiettes {
     position: absolute;
     top: 87%;
-    text-align: left; 
-    width: 233px; 
+    text-align: left;
+    width: 233px;
     height: 189px;
     border: 1;
 }
 
 .table_viandes {
-    text-align: left; 
-    width: 233px; 
-    height: 32px; 
-    margin-left: auto; 
+    text-align: left;
+    width: 233px;
+    height: 32px;
+    margin-left: auto;
     margin-right: auto;
     border: 1;
 }
 
 .table_hamburgers {
-    position:absolute;
-    top:108%;
+    position: absolute;
+    top: 108%;
     right: 41.6%;
-    text-align: left; 
-    width: 232px; 
-    height: 32px; 
-    margin-left: auto; 
+    text-align: left;
+    width: 232px;
+    height: 32px;
+    margin-left: auto;
     margin-right: auto;
     border: 1;
 }
 
 .table_mitraillettes {
     position: absolute;
-    top:57%;
+    top: 57%;
     right: 20%;
-    text-align: left; 
-    width: 238px; 
-    height: 32px; 
-    margin-left: auto; 
+    text-align: left;
+    width: 238px;
+    height: 32px;
+    margin-left: auto;
     margin-right: 0px;
     border: 1;
 }
+
 /*********************END_MENU*************************/
+
+/*********************FOOTER*************************/
 
 footer {
     background-color: #e6af4b;
@@ -204,6 +315,9 @@ footer {
     width: 56.250em;
 }
 
+/*********************END_FOOTER*************************/
+
+/*********************NAVBAR*************************/
 
 /* Add a black background color to the top navigation */
 
@@ -250,8 +364,14 @@ nav .icon {
     display: none;
 }
 
+/*********************END_NAVBAR*************************/
+
+/*********************RESPONSIVE_DESIGN*************************/
+
 @media (max-width:420px) {
     nav .icon {
         display: inline-block;
     }
 }
+
+/*********************END_RESPONSIVE_DESIGN*************************/
