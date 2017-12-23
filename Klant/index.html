@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -7,65 +7,90 @@
     <link rel="icon" href="images/donerkebab.ico" type="images/ico" size="64x64">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snack Time</title>
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
 </head>
 
 <body id="home_page">
     <container>
         <header>
-            <center><span class="titel_header">Snack Time</span></center>
-            <nav>
+            <!--<span class="titel_header">Snack Time</span>
+            <!--<img class="halal_logo" src="images/halalLogo.png" alt="Logo Halal">
+            <a href="https://www.facebook.com/SNACK-TIME-409543542719269/?fref=ts">
+                <img class="fb_SharePage" src="images/facebookPagina.png" alt="Share on Facebook">
+            </a>-->
+            <img class="homepage_Logo" src="images/snackTimeLogo.png" alt="snacktime" />
+            <center>
+                <div class="titel_header">Snack Time</div>
+            </center>
+            <nav class="topnav" id="myTopnav">
                 <a href="index.html">Home</a>
                 <a href="menu.html">Menu</a>
+                <a href="order.html">Commandes</a>
                 <a href="contact.html">Contact</a>
                 <a href="pictures.html">Photos</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
             </nav>
-            <img class="halal_logo" src="images/halalLogo.png" alt="Logo Halal">
-            <a href="https://www.facebook.com/SNACK-TIME-409543542719269/?fref=ts">
-                <img class="fb_SharePage" src="images/facebookPagina.png" alt="Share on Facebook">
-            </a>
-
         </header>
+        <content>
+            <div class="intro_text">
+                <br>
+                <h1> Bienvenu Chez Snack Time</h1><br>
+                <p> Fatigué des plats Belges?<br> Vous voulez élargir vos horizons?<br> Et bien vous êtes au bon endroit!<br> Vous y trouverez différentes spécialités turques.<br> Vous pouvez profiter de notre diversité de légumes et olives turques. Une ambiance qui vous donnera l'envie de voyager!</p><br>
 
+                <h2>A Bientôt</h2>
+
+            </div>
+            <br><br>
+            <center><img class="homepage_image" src="images/food.jpg" alt="groenten" width="50%"></center>
+            <br><br>
+        </content>
         <aside>
-            <div class="openingsuren">
-                <table>
-                    <tr>
-                        <th>Lundi</th>
-                        <td>12:00-0:00</td>
-                    </tr>
-                    <tr>
-                        <th>Mardi</th>
-                        <td style="color: red;">FERMÉ</td>
-                    </tr>
-                    <tr>
-                        <th>Mercredi</th>
-                        <td>12:00-00:00</td>
-                    </tr>
-                    <tr>
-                        <th>Jeudi</th>
-                        <td>12:00-00:00</td>
-                    </tr>
-                    <tr>
-                        <th>Vendredi</th>
-                        <td>12:00-02:00</td>
-                    </tr>
-                    <tr>
-                        <th>Samedi</th>
-                        <td>12:00-02:00</td>
-                    </tr>
-                    <tr>
-                        <th>Dimanche</th>
-                        <td>12:00-00:00</td>
-                    </tr>
-                </table>
+            <div class="openingsuren" align="center">
+                <center><br><br>
+                    <table>
+                        <tr>
+                            <th>Lundi</th>
+                            <td>12:00-0:00</td>
+                        </tr>
+                        <tr>
+                            <th>Mardi</th>
+                            <td style="color: red;">FERMÉ</td>
+                        </tr>
+                        <tr>
+                            <th>Mercredi</th>
+                            <td>12:00-00:00</td>
+                        </tr>
+                        <tr>
+                            <th>Jeudi</th>
+                            <td>12:00-00:00</td>
+                        </tr>
+                        <tr>
+                            <th>Vendredi</th>
+                            <td>12:00-02:00</td>
+                        </tr>
+                        <tr>
+                            <th>Samedi</th>
+                            <td>12:00-02:00</td>
+                        </tr>
+                        <tr>
+                            <th>Dimanche</th>
+                            <td>12:00-00:00</td>
+                        </tr>
+                    </table>
+                    <br><br>
+                </center>
             </div>
         </aside>
-
-        <content>
-                
-        </content>
-
         <footer>
             <p>2017 made by <a href="https://www.facebook.com/TheIliasZahirAgnaou">Ilias Agnaou</a></p>
         </footer>

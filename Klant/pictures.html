@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -7,13 +7,32 @@
     <link rel="icon" href="images/donerkebab.ico" type="images/ico" size="64x64">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snack Time</title>
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
 </head>
 
 <body id="pictures_page">
     <container>
         <header>
-            <center><span class="titel_header">Snack Time</span></center>
-            <nav>
+            <!--<span class="titel_header">Snack Time</span>
+            <!--<img class="halal_logo" src="images/halalLogo.png" alt="Logo Halal">
+            <a href="https://www.facebook.com/SNACK-TIME-409543542719269/?fref=ts">
+                <img class="fb_SharePage" src="images/facebookPagina.png" alt="Share on Facebook">
+            </a>-->
+            <img class="homepage_Logo" src="images/snackTimeLogo.png" alt="snacktime" />
+            <center>
+                <div class="titel_header">Snack Time</div>
+            </center>
+            <nav class="topnav" id="myTopnav">
                 <a href="index.html">Home</a>
                 <a href="menu.html">Menu</a>
                 <a href="order.html">Commandes</a>
@@ -21,11 +40,6 @@
                 <a href="pictures.html">Photos</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
             </nav>
-            <img class="halal_logo" src="images/halalLogo.png" alt="Logo Halal">
-            <a href="https://www.facebook.com/SNACK-TIME-409543542719269/?fref=ts">
-                <img class="fb_SharePage" src="images/facebookPagina.png" alt="Share on Facebook">
-            </a>
-
         </header>
 
         <content>
@@ -34,9 +48,8 @@
 
                 <div class="food_presentation">
                     <div class="food_photo">
-                        <img src="images/crepeturque.jpg" alt="crepeTurque" width="100%" height="100%">
+                        <img class="photo" src="images/crepeturque.jpg" alt="crepeTurque" width="100%" height="100%">
                     </div>
-                    <br>
                     <center>
                         <span class="food_text">Crepe Turque</span>
                         <br>
@@ -46,9 +59,8 @@
 
                 <div class="food_presentation">
                     <div class="food_photo">
-                        <img src="images/assiettePitta.jpg" alt="assiettePitta" width="100%" height="100%">
+                        <img class="photo" src="images/assiettePitta.jpg" alt="assiettePitta" width="100%" height="100%">
                     </div>
-                    <br>
                     <center>
                         <span class="food_text">Assiettes Pitta</span>
                         <br>
@@ -58,9 +70,8 @@
 
                 <div class="food_presentation">
                     <div class="food_photo">
-                        <img src="images/durumMegaBazooka.jpg" alt="DurumMega" width="100%" height="100%">
+                        <img class="photo" src="images/durumMegaBazooka.jpg" alt="DurumMega" width="100%" height="100%">
                     </div>
-                    <br>
                     <center>
                         <span class="food_text">Durum Mega Bazooka</span>
                         <br>
@@ -70,9 +81,8 @@
 
                 <div class="food_presentation">
                     <div class="food_photo">
-                        <img src="images/metrailletteKofte.jpg" alt="MetrailletteKofte" width="100%" height="100%">
+                        <img class="photo" src="images/metrailletteKofte.jpg" alt="MetrailletteKofte" width="100%" height="100%">
                     </div>
-                    <br>
                     <center>
                         <span class="food_text">Metraillette Kofte</span>
                         <br>
@@ -82,9 +92,8 @@
 
                 <div class="food_presentation">
                     <div class="food_photo">
-                        <img src="images/metraillettePitta.jpg" alt="MetraillettePitta" width="100%" height="100%">
+                        <img class="photo" src="images/metraillettePitta.jpg" alt="MetraillettePitta" width="100%" height="100%">
                     </div>
-                    <br>
                     <center>
                         <span class="food_text">Metraillette Pitta</span>
                         <br>
@@ -94,9 +103,8 @@
 
                 <div class="food_presentation">
                     <div class="food_photo">
-                        <img src="images/pouletMarinee.jpg" alt="PouletMarinee" width="100%" height="100%">
+                        <img class="photo" src="images/pouletMarinee.jpg" alt="PouletMarinee" width="100%" height="100%">
                     </div>
-                    <br>
                     <center>
                         <span class="food_text">Poulet Marinée</span>
                         <br>
@@ -106,9 +114,8 @@
 
                 <div class="food_presentation">
                     <div class="food_photo">
-                        <img src="images/food.jpg" alt="Légumes" width="100%" height="100%">
+                        <img class="photo" src="images/food.jpg" alt="Légumes" width="100%" height="100%">
                     </div>
-                    <br>
                     <center>
                         <span class="food_text">Touts Nos Légumes</span>
                     </center>
@@ -116,10 +123,9 @@
 
                 <div class="food_presentation">
                     <div class="food_photo">
-                        <img src="images/pitta.jpg" alt="pitta" width="100%" height="100%">
+                        <img class="photo" src="images/pitta.jpg" alt="pitta" width="100%" height="100%">
                     </div>
-                    <br>
-                    <center>
+                    <center> 
                         <span class="food_text">Pitta Agneau</span>
                     </center>
                 </div>
@@ -133,7 +139,7 @@
         </content>
 
         <footer>
-            <p>© 2017 made by <a href="#">Ilias Agnaou</a></p>
+            <p>© 2017 made by <a href="https://www.facebook.com/TheIliasZahirAgnaou">Ilias Agnaou</a></p>
         </footer>
     </container>
 </body>
